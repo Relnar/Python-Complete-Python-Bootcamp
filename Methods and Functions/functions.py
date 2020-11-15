@@ -1,14 +1,15 @@
 # Using a default argument
 def myfunction(name='NoName'):
-	'''Hello name
+	"""Hello name
 
 	Args:
 		name (string): name
 
 	Returns:
 		string: Hello name
-	'''
+	"""
 	return "Hello " + name
+
 
 def main():
 	print("== Print doc on the insert function ==")
